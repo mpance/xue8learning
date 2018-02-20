@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="description" content="Xue8 is an online school teaching students ages 8-18 computer science with live 1:1 video instruction.">
+  
+  <meta name="author" content="Xue8 learning">
+
+  <meta property="og:description" content="Xue8 Learning provides online coding classes with a private instructor in English or Chinese. Each student meets with their instructor once or twice a week, privately or in a small group setting (up to 3 students). Developed by UC Berkeley and Tsinghua University graduates, our program fully equips young minds with skills vital in today's digital world while building confidence, and learning to build games, apps, and websites.">
+
+  <meta property="og:image" content="https://junilearning.com/images/logo_square.png" />
+  <meta property="og:image:secure_url" content="http://junilearning.com/images/logo_square.png" />
+
+  <meta name="google-site-verification" content="2Ln_awnIW14X3TOBjT-jlEqpA2w_TrJg3F_eYYkBagg">
+
+  <title>Xue8 Learning</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="jquery-3.2.1.min.js"></script>
+  <script defer src="vimeo-player.js"></script>
+  <script defer src="app.js"></script>
+  
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-98887858-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '212796599251616');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=212796599251616&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Global site tag (gtag.js) - Google AdWords: 836859403 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-836859403"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-836859403');
+  </script>
+
+  <!-- Fullstory Code -->
+  <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = '9ADNS';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+        d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+        ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+    })(window,document,window['_fs_namespace'],'script','user');
+  </script>
+  <!-- End Fullstory Code -->
+
+</head>
+
+<body>
+  <div class="modal-background"></div>
+  <div class="modal">
+    <iframe class="modal-iframe" src="https://player.vimeo.com/video/60767036" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div class="modal-close">
+      <img src="images/down_arrow.png">
+    </div>
+  </div>
+  <div class="navbar">
+    <div class="navbar-logo">
+      <a href="index.html">
+        <img src="images/logo3.png" alt="logo" />
+      </a>
+    </div>
+    <div class="navbar-icon">
+      <img src="images/icon_menu.png" alt="menu_icon" />
+    </div>
+    <ul class="navbar-links">
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="https://medium.com/juni-learning" target="_blank">Blog</a><li>
+      <li><a class="trial" href="schedule_trial.html" id="schedule-trial-nav-desktop">Schedule Free Trial</a></li>
+    </ul>
+    <ul class="navbar-links navbar-links-mobile">
+      <li><a href="#howitworks">How It Works</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="https://medium.com/juni-learning" target="_blank">Blog</a><li>
+      <li><a href="schedule_trial.html" id="schedule-trial-nav-mobile">Schedule Free Trial</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <section id="intro">
+      <div class="intro">
+        <div class="intro-overlay">
+          <h1 class="intro-title">Give your kids the skills of tomorrow</h1>
+          <div class="intro-subtitle">1-1 online lessons in coding and computer science</div>
+          <div class="intro-play">
+            <img src="images/play.png">
+          </div>
+          <div class="button intro-button">
+            <a href="schedule_trial.html" id="schedule-trial-hero" target="_blank">Schedule Free Trial</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="howitworks">
+      <div class="section" id="section-howitworks">
+        <p>
+          Xue8 Learning is an English-immersion online coding school providing <b>1-1 coding classes with a private instructor</b>. Each meeting takes place <b>once or twice a week</b>, privately or in a small group of up to 3 students. Developed by UC Berkeley and Tsinghua University graduates, our program creates an English-speaking environment and equips <b>bright young minds</b> with the technical skills of today and tomorrow. Students leave the fully equipped with the skills, confidence, and enthusiasm necessery to be successful in today's digital world. All our instructors are native English speakers and fluent in Mandarin Chinese.
+        </p>
+        <!-- <img src="images/class.png" alt="class" class="screenshot" /> -->
+      </div>
+    </section>
+    <section id="team">
+      <div class="section-title-background" id="section-title-background-teachers">
+        <div class="section-title">Our Founder</div>
+      </div>
+      <div class="section section-grey">
+        <p class="narrow">
+          Our instructors have deep teaching experience, subject expertise, and track record in improving student outcomes. All instructors have professional experience in the field they are teaching and experience working with young students. Many of our instructors are fluent in both English and Chinese.
+        </p>
+        <hr />
+        <div class="team-container">
+          <div class="team-container-row">
+            <div class="team">
+              <div class="team-top" id="marko">
+                <img src="images/marko.jpeg" alt="marko" />
+              </div>
+              <div class="team-bottom">
+                <div class="team-title">Marko Pance</div>
+                <div class="team-subtitle">Lead Instructor</div>
+                Marko Pance holds a B.S in Economics and Computer Science from UC Berkeley. Previously, he worked at ChemAxon as a software engineer. He came to Beijing as an exchange student and has lived in Beijing, Taipei, Guangzhou, Shenzhen since. He is fluent in Mandarin Chinese.
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="clear"></div>
+      </div>
+    </section>
+    <section id="curriculum">
+      <div class="section section-yellow">
+        <div class="fake-height-small"></div>
+        <h2>Our Tracks</h2>
+        <p>Students start on one of our tracks and progress through levels as they advance. Each track typically takes 3-6 months to complete, with additional project modules if students would like a more in-depth experience. For sample curriculum, please email <a href="mailto:hello@learnwithjuni.com">mpance@qq.com</a>.</p>
+        <div class="track-container" id="juni-jr">
+          <div class="track-container-top"></div>
+          <div class="track-container-bottom">
+            <h2>Juni Jr: Scratch</h2>
+            <h4>For ages 5-7 (beginner track)</h4>
+            <p>Juni Jr provides a fun introduction to programming for our youngest students. In Juni Jr, students learn about logic, sequencing, loops, and events. They also practice fundamental skills like basic algebra, reading, and public speaking. Together, we build games, solve puzzles, and design art.</p>
+            <p>Juni Jr sessions are 25 minutes long and priced differently than our other courses. Please <a href="#contact">contact us</a> for more information.</p>
+          </div>
+        </div>
+        <div class="track-container" id="game-superstar">
+          <div class="track-container-top"></div>
+          <div class="track-container-bottom">
+            <h2>Game Superstar: Scratch</h2>
+            <h4>For ages 8-12 (beginner track)</h4>
+            <p>In Game Superstar, students use Scratch's drag-and-drop coding system to learn computer science fundamentals: loops, variables, functions, conditionals, and event listeners.</p>
+            <p>This track centers around games: by the end of the course, students have designed and built their own complex games in Scratch.</p>
+          </div>
+        </div>
+        <div class="track-container" id="web-superstar">
+          <div class="track-container-top"></div>
+          <div class="track-container-bottom">
+            <h2>Web Superstar</h2>
+            <h4>For ages 8-12 (beginner track)</h4>
+            <p>In Web Superstar, students learn HTML, CSS, and Javascript to create their own websites.</p>
+            <p>This track is geared toward students who enjoy art and design. By the end of this course, students have created their own web portfolios including interactive mini-projects, like a mock e-commerce storefront, social network profile, or online arcade.</p>
+          </div>
+        </div>
+        <div class="track-container" id="graphics-superstar">
+          <div class="track-container-top"></div>
+          <div class="track-container-bottom">
+            <h2>Graphics Superstar: Python</h2>
+            <h4>For ages 8-12 (beginner track)</h4>
+            <p>In Graphics Superstar, students learn Python basics and the Turtle programming library, with an emphasis on programmatically generating graphic art. This course dives deeper into programming fundamentals: loops, variables, functions, conditionals, and event listeners.</p>
+            <p>By the end of this course, students have built complex computer-generated art and games in Python.</p>
+          </div>
+        </div>
+        <div class="track-container" id="data-master">
+          <div class="track-container-top"></div>
+          <div class="track-container-bottom">
+            <h2>Data Master: Python</h2>
+            <h4>For ages 12+ (intermediate track)</h4>
+            <p>This course guides students through learning Python, with an emphasis on data analysis and visualization. Once the student is comfortable with Python fundamentals, we cover how to acquire, clean, analyze, and visualize datasets via various methods.</p>
+            <p>The master project for this track involves the student using Python to ingest, analyze, and create graphs about a dataset involving a topic of their choice.</p>
+          </div>
+        </div>
+        <div class="track-container" id="app-master">
+          <div class="track-container-top"></div>
+          <div class="track-container-bottom">
+            <h2>App Master: Web Development</h2>
+            <h4>For ages 12+ (intermediate track)</h4>
+            <p>This course guides students through building and deploying websites and web applications. Both frontend (HTML, CSS, Javascript, and JQuery) and backend development (APIs and databases) are covered.</p>
+            <p>The master project for this course is to develop a web application that fetches news articles from an API and displays a customized news feed to the user.</p>
+          </div>
+        </div>
+        <div class="track-container" id="algorithm-master">
+          <div class="track-container-top"></div>
+          <div class="track-container-bottom">
+              <h2>Algorithm Master: Python</h2>
+              <h4>For ages 14+ (advanced track)</h4>
+              <p>This course guides students through learning Python, with an emphasis on algorithms and data structures. This track covers recursion, searching algorithms, sorting algorithms, big-O notation, and implementing various data structures.</p>
+              <p>Students who excel in this course have a strong math background (Algebra 2 or higher recommended). If students have already taken Data Master: Python, they may begin in the second half of this course.</p>
+            </div>
+        </div>
+        <div class="track-container" id="ap-cs">
+          <div class="track-container-top"></div>
+          <div class="track-container-bottom">
+              <h2>AP Computer Science A: Java</h2>
+              <h4>For ages 14+ (advanced track)</h4>
+              <p>This course guides students through learning Java, with an emphasis on object-oriented programming. Students build a variety of complex projects while learning about objects, classes, scope, and inheritance. This course also covers basic searching and sorting algorithms in Java.</p>
+              <p>This course prepares students for the AP Computer Science A exam, which is administered in May of each year.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing">
+      <div class="section section-green">
+        <div class="fake-height-small"></div>
+        <h2>Pricing</h2>
+        <p>Each pass is billed on a monthly basis for the allotted pass length and comes with a free class. All packages include a preliminary assessment, resource recommendations, and follow-up counseling. Cancel your subscription at any time and we'll be happy to discontinue pass billing with no fees.</p>
+        <div class="pricing-switch">
+          <div class="pricing-switch-option pricing-switch-selected pricing-switch-private">Private</div>
+          <div class="pricing-switch-option">Group</div>
+        </div> 
+        <div class="pricing-private">
+          <div class="pricing-container">
+            <div class="pricing">
+              <h3>6 Month Pass</h3>
+              <h4>1x per week, Private</h4>
+              <div class="price-amt">
+                <div class="price-amt-label">Per Month</div>
+                <span>RMB1000</span>
+              </div>
+              <ul class="pricing-content">
+                <li>1 student : 1 teacher ratio</li>
+                <li>4 sessions per month</li>
+                <li>50-minute sessions, once a week</li>
+              </ul>
+              <div class="button pricing-button" 
+                id="button-signup-6-month-1x-private"
+                onclick="location.href='https://app.junilearning.com/payment/6-month-1x-private'"
+              >
+                SIGN UP
+              </div>
+            </div>
+          </div>
+          <div class="pricing-container">
+            <div class="pricing">
+              <h3>3 Month Pass</h3>
+              <h4>1x per week, Private</h4>
+              <div class="price-amt">
+                <div class="price-amt-label">Per Month</div>
+                <span>RMB1200</span>
+              </div>
+              <ul class="pricing-content">
+                <li>1 student : 1 teacher ratio</li>
+                <li>4 sessions per month</li>
+                <li>50-minute sessions, once a week</li>
+              </ul>
+              <div class="button pricing-button" 
+                id="button-signup-3-month-1x-private"
+                onclick="location.href='https://app.junilearning.com/payment/3-month-1x-private'"
+              >
+                SIGN UP
+              </div>
+            </div>
+          </div>
+          <div class="pricing-container">
+            <div class="pricing">
+              <h3>6 Month Pass</h3>
+              <h4>2x per week, Private</h4>
+              <div class="price-amt">
+                <div class="price-amt-label">Per Month</div>
+                <span>RMB1800</span>
+              </div>
+              <ul class="pricing-content">
+                <li>1 student : 1 teacher ratio</li>
+                <li>8 sessions per month</li>
+                <li>50-minute sessions, twice a week</li>
+              </ul>
+              <div class="button pricing-button" 
+                id="button-signup-6-month-2x-private"
+                onclick="location.href='https://app.junilearning.com/payment/6-month-2x-private'"
+              >
+                SIGN UP
+              </div>
+            </div>
+          </div>
+          <div class="pricing-container">
+            <div class="pricing">
+              <h3>3 Month Pass</h3>
+              <h4>2x per week, Private</h4>
+              <div class="price-amt">
+                <div class="price-amt-label">Per Month</div>
+                <span>RMB2000</span>
+              </div>
+              <ul class="pricing-content">
+                <li>1 student : 1 teacher ratio</li>
+                <li>8 sessions per month</li>
+                <li>50-minute sessions, twice a week</li>
+              </ul>
+              <div class="button pricing-button" 
+                id="button-signup-3-month-2x-private"
+                onclick="location.href='https://app.junilearning.com/payment/3-month-2x-private'"
+              >
+                SIGN UP
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-group">
+          <div class="pricing-container">
+            <div class="pricing">
+              <h3>6 Month Pass</h3>
+              <h4>1x per week, Group</h4>
+              <div class="price-amt">
+                <div class="price-amt-label">Per Month</div>
+                <span>RMB600</span>
+              </div>
+              <ul class="pricing-content">
+                <li>3 student : 1 teacher maximum ratio</li>
+                <li>4 sessions per month</li>
+                <li>50-minute sessions, once a week</li>
+              </ul>
+              <div class="button pricing-button" 
+                id="button-signup-6-month-1x-group"
+                onclick="location.href='https://app.junilearning.com/payment/6-month-1x-group'"
+              >
+                SIGN UP
+              </div>
+            </div>
+          </div>
+          <div class="pricing-container">
+            <div class="pricing">
+              <h3>3 Month Pass</h3>
+              <h4>1x per week, Group</h4>
+              <div class="price-amt">
+                <div class="price-amt-label">Per Month</div>
+                <span>RMB800</span>
+              </div>
+              <ul class="pricing-content">
+                <li>3 student : 1 teacher maximum ratio</li>
+                <li>4 sessions per month</li>
+                <li>50-minute sessions, once a week</li>
+              </ul>
+              <div class="button pricing-button" 
+                id="button-signup-3-month-1x-group"
+                onclick="location.href='https://app.junilearning.com/payment/3-month-1x-group'"
+              >
+                SIGN UP
+              </div>
+            </div>
+          </div>
+          <div class="pricing-container">
+            <div class="pricing">
+              <h3>6 Month Pass</h3>
+              <h4>2x per week, Group</h4>
+              <div class="price-amt">
+                <div class="price-amt-label">Per Month</div>
+                <span>RMB1400</span>
+              </div>
+              <ul class="pricing-content">
+                <li>3 student : 1 teacher maximum ratio</li>
+                <li>4 sessions per month</li>
+                <li>50-minute sessions, once a week</li>
+              </ul>
+              <div class="button pricing-button" 
+                id="button-signup-6-month-2x-group"
+                onclick="location.href='https://app.junilearning.com/payment/6-month-2x-group'"
+              >
+                SIGN UP
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq">
+      <div class="fake-height section-green"></div>
+      <div class="section-title-background">
+        <div class="section-title">Frequently Asked Questions</div>
+      </div>
+      <div class="section">
+       <div class="question" id="1">Why is the program online?
+        <img src="images/expando.png" />
+        <div class="answer" id="1">We believe that learning can happen anywhere, but resources are not always matched between where teachers and students are. By doing our classes online, students can still get 1:1 attention at competitive prices.</div>
+       </div>
+       <div class="question" id="2">How large are your classes? Will my child work directly with the instructor?
+        <img src="images/expando.png" />
+        <div class="answer" id="2">Our private classes are all 1:1, and students will work with the instructor directly for each session learning new concepts, debugging code, and building their own projects. Group classes have a maximum of 3 students to 1 instructor.</div>
+       </div>
+       <div class="question" id="3">How do the group classes work?
+        <img src="images/expando.png" />
+        <div class="answer" id="3">Group classes are formatted in the same way as private classes, with a couple more students added so it is more affordable and collaborative for students. Families can form their own groups, or if you would like us to help match you to other families, please let us know.</div>
+       </div>
+       <div class="question" id="4">How long should my student spend on the program?
+        <img src="images/expando.png" />
+        <div class="answer" id="4">Students typically spend at least 3 months with Juni working through one of our courses, then graduate into the next course. We do offer shorter-term intensive courses - please contact us if you're interested in an intensive.</div>
+       </div>
+       <div class="question" id="5">How does scheduling work?
+        <img src="images/expando.png" />
+        <div class="answer" id="5">Students meet with their instructor at a recurring time each week (e.g. Mondays at 4pm). Sessions can be rescheduled 24 hours in advance with no additional charge.</div>
+       </div>
+       <div class="question" id="6">When can my child start with Juni?
+        <img src="images/expando.png" />
+        <div class="answer" id="6">We have rolling enrollment with start dates every Monday throughout the year. Just let us know which week works best for your family to start.</div>
+       </div>
+       <div class="question" id="7">Can I pause my subscription if my family is traveling?
+        <img src="images/expando.png" />
+        <div class="answer" id="7">You can always pause classes if you are traveling, or if your student needs to take time off for any reason. Just email us at hello@learnwithjuni.com and we will take care of it for you.</div>
+       </div>
+       <div class="question" id="8">What is the cancellation policy?
+        <img src="images/expando.png" />
+        <div class="answer" id="8">You can cancel any time before the billing date (monthly based on the date of your first payment) and finish off your remaining courses, or cancel in between billing dates and get a prorated refund.</div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="fake-height"></div>
+      <div class="section-title-background" id="section-title-background-contact">
+        <div class="section-title">Contact Us</div>
+      </div>
+      <div class="section">
+        <p class="narrow">We're always interested in connecting with like-minded people - feel free to say hi if you would like to learn more about what we're doing or you would like to join us!</p>
+        <hr>
+        <h4>email</h4>
+        <p><a href="mailto:mpance@qq.com">mpance@qq.com</a></p>
+        <h4>phone</h4>
+        <p>183-1107-6023</p>
+        <h4>areas served</h4>
+        <p class="narrow">We are an English-immersion online coding school based in Shenzhen, China. Our offices are in downtown Shenzhen a stones throw away from the Shenzhen Stock exchange and PingAn financial tower. </p>
+        <a href="https://facebook.com/junilearning" target="_blank">
+          <img src="images/facebook.png" alt="facebook" />
+        </a>
+         <a href="https://twitter.com/junilearning" target="_blank">
+          <img src="images/twitter.png" alt="twitter" />
+        </a>
+      </div>
+    </section>
+    <footer>
+      <a href="#intro"><h4>Home</h4></a>
+      <a href="#contact"><h4>Contact Us</h4></a>
+      <a href="tos.html" target="_blank"><h4>Terms of Service</h4></a>
+      <a href="tos.html" target="_blank"><h4>Privacy Policy</h4></a>
+      <a href="https://app.junilearning.com" target="_blank"><h4>Login</h4></a>
+      <div>
+        <p>Copyright © 2018 Xue8 Learning. All rights reserved.</p>
+        <p class="small">Shenzhen | Beijing
+      </div>
+    </footer>
+  </div>
+
+
+</body>
